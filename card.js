@@ -13,7 +13,7 @@ function armarcarrito(){
                 <div class="card-body">
                     <h5 class="card-title">${producto.nombre}</h5>
                     <p class="card-text">${producto.precio}</p>
-                    <a class="btn btn-primary boton1" onclick="quitar(${indice})">Borrar producto</a>
+                    <a class=" btn btn-primary boton1" onclick="quitar(${indice})">Borrar producto</a>
                 </div>
             </div>`;
         container1.appendChild(newCard);

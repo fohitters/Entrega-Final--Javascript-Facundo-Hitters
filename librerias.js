@@ -1,10 +1,15 @@
-const { value: email } = await Swal.fire({
-    title: 'Input email address',
-    input: 'email',
-    inputLabel: 'Your email address',
-    inputPlaceholder: 'Enter your email address'
-})
+let buy = document.getElementsByClassName("buy");
 
-if (email) {
-    Swal.fire(`Entered email: ${email}`)
+for (let i = 0; i < buy.length; i++) {
+    buy[i].addEventListener("click", () => {
+        Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'Su producto a sido agregado exitosamente',
+            showConfirmButton: false,
+            timer: 1500
+        });
+    });
 }
+
+

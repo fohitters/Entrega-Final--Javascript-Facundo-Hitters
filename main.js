@@ -1,4 +1,5 @@
 
+
 const Producto = function(img,id,nombre,precio,stock){
     this.img = img;
     this.id = id;
@@ -29,4 +30,3 @@ function quitar(id){
     console.log(cart)
     armarcarrito()
 }
-
