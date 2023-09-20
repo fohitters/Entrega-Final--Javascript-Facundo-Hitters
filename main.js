@@ -30,3 +30,4 @@ function quitar(id){
     console.log(cart)
     armarcarrito()
 }
+
